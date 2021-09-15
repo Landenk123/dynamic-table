@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/landenk/Desktop/3120HW1/dynamic-table-Landenk123-master/DynamicTable.h
+stdlib.h
+-
+
+/home/landenk/Desktop/3120HW1/dynamic-table-Landenk123-master/Timer.h
+windows.h
+-
+sys/time.h
+-
+
+/home/landenk/Desktop/3120HW1/dynamic-table-Landenk123-master/main.cpp
+iostream
+-
+fstream
+-
+cmath
+-
+DynamicTable.h
+/home/landenk/Desktop/3120HW1/dynamic-table-Landenk123-master/DynamicTable.h
+Timer.h
+/home/landenk/Desktop/3120HW1/dynamic-table-Landenk123-master/Timer.h
+
